@@ -1,0 +1,5986 @@
+{
+  "devices": {
+    "dev0": {
+      "label": "x",
+      "type": "NumEntry",
+      "propagation": 0,
+      "numbase": "dec",
+      "bits": 16,
+      "position": {
+        "x": 0,
+        "y": 167
+      }
+    },
+    "dev1": {
+      "label": "y",
+      "type": "NumEntry",
+      "propagation": 0,
+      "numbase": "dec",
+      "bits": 16,
+      "position": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    "dev2": {
+      "label": "zx",
+      "type": "Button",
+      "propagation": 0,
+      "position": {
+        "x": 236.9765625,
+        "y": 214
+      }
+    },
+    "dev3": {
+      "label": "nx",
+      "type": "Button",
+      "propagation": 0,
+      "position": {
+        "x": 562.6953125,
+        "y": 263.5
+      }
+    },
+    "dev4": {
+      "label": "zy",
+      "type": "Button",
+      "propagation": 0,
+      "position": {
+        "x": 236.9765625,
+        "y": 96.5
+      }
+    },
+    "dev5": {
+      "label": "ny",
+      "type": "Button",
+      "propagation": 0,
+      "position": {
+        "x": 562.6953125,
+        "y": 143.5
+      }
+    },
+    "dev6": {
+      "label": "f0",
+      "type": "Button",
+      "propagation": 0,
+      "position": {
+        "x": 893.1015625,
+        "y": 221.5
+      }
+    },
+    "dev7": {
+      "label": "f1",
+      "type": "Button",
+      "propagation": 0,
+      "position": {
+        "x": 1060.6484375,
+        "y": 257
+      }
+    },
+    "dev8": {
+      "label": "no",
+      "type": "Button",
+      "propagation": 0,
+      "position": {
+        "x": 1390.2109375,
+        "y": 272.5
+      }
+    },
+    "dev9": {
+      "label": "cin",
+      "type": "Button",
+      "propagation": 0,
+      "position": {
+        "x": 725.5546875,
+        "y": 149.5
+      }
+    },
+    "dev10": {
+      "label": "cout",
+      "type": "Lamp",
+      "propagation": 1,
+      "position": {
+        "x": 1060.6484375,
+        "y": 111
+      }
+    },
+    "dev11": {
+      "label": "out",
+      "type": "NumDisplay",
+      "propagation": 0,
+      "numbase": "dec",
+      "bits": 16,
+      "position": {
+        "x": 1706.421875,
+        "y": 249
+      }
+    },
+    "dev12": {
+      "label": "m0",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "NULL16",
+      "position": {
+        "x": 227.46875,
+        "y": 166.5
+      }
+    },
+    "dev13": {
+      "label": "m1",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "mux16",
+      "position": {
+        "x": 386.484375,
+        "y": 177.5
+      }
+    },
+    "dev14": {
+      "label": "m10",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "mux16",
+      "position": {
+        "x": 1539.71875,
+        "y": 236
+      }
+    },
+    "dev15": {
+      "label": "m2",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "mux16",
+      "position": {
+        "x": 712.203125,
+        "y": 199.5
+      }
+    },
+    "dev16": {
+      "label": "m24",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "And",
+      "position": {
+        "x": 883.59375,
+        "y": 271.5
+      }
+    },
+    "dev17": {
+      "label": "m3",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "NULL16",
+      "position": {
+        "x": 227.46875,
+        "y": 50
+      }
+    },
+    "dev18": {
+      "label": "m31",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "Or",
+      "position": {
+        "x": 883.59375,
+        "y": 0
+      }
+    },
+    "dev19": {
+      "label": "m39",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "Not",
+      "position": {
+        "x": 553.1875,
+        "y": 193.5
+      }
+    },
+    "dev20": {
+      "label": "m4",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "mux16",
+      "position": {
+        "x": 386.484375,
+        "y": 57.5
+      }
+    },
+    "dev21": {
+      "label": "m40",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "Not",
+      "position": {
+        "x": 553.1875,
+        "y": 73.5
+      }
+    },
+    "dev22": {
+      "label": "m41",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "Not",
+      "position": {
+        "x": 1380.703125,
+        "y": 228.5
+      }
+    },
+    "dev23": {
+      "label": "m45",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "Xor16",
+      "position": {
+        "x": 883.59375,
+        "y": 143.5
+      }
+    },
+    "dev24": {
+      "label": "m5",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "mux16",
+      "position": {
+        "x": 712.203125,
+        "y": 73.5
+      }
+    },
+    "dev25": {
+      "label": "m6",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "full_adder16",
+      "position": {
+        "x": 878.90625,
+        "y": 60
+      }
+    },
+    "dev26": {
+      "label": "m7",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "mux16",
+      "position": {
+        "x": 1047.296875,
+        "y": 181
+      }
+    },
+    "dev27": {
+      "label": "m8",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "mux16",
+      "position": {
+        "x": 1047.296875,
+        "y": 22.5
+      }
+    },
+    "dev28": {
+      "label": "m9",
+      "type": "Subcircuit",
+      "propagation": 0,
+      "celltype": "mux16",
+      "position": {
+        "x": 1214,
+        "y": 212.5
+      }
+    }
+  },
+  "connectors": [
+    {
+      "from": {
+        "id": "dev0",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev12",
+        "port": "x"
+      },
+      "name": "x"
+    },
+    {
+      "from": {
+        "id": "dev0",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev13",
+        "port": "y"
+      },
+      "name": "x"
+    },
+    {
+      "from": {
+        "id": "dev1",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev17",
+        "port": "x"
+      },
+      "name": "y"
+    },
+    {
+      "from": {
+        "id": "dev1",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev20",
+        "port": "y"
+      },
+      "name": "y"
+    },
+    {
+      "from": {
+        "id": "dev2",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev13",
+        "port": "sel"
+      },
+      "name": "zx"
+    },
+    {
+      "from": {
+        "id": "dev3",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev15",
+        "port": "sel"
+      },
+      "name": "nx"
+    },
+    {
+      "from": {
+        "id": "dev4",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev20",
+        "port": "sel"
+      },
+      "name": "zy"
+    },
+    {
+      "from": {
+        "id": "dev5",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev24",
+        "port": "sel"
+      },
+      "name": "ny"
+    },
+    {
+      "from": {
+        "id": "dev6",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev26",
+        "port": "sel"
+      },
+      "name": "f0"
+    },
+    {
+      "from": {
+        "id": "dev6",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev27",
+        "port": "sel"
+      },
+      "name": "f0"
+    },
+    {
+      "from": {
+        "id": "dev7",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev28",
+        "port": "sel"
+      },
+      "name": "f1"
+    },
+    {
+      "from": {
+        "id": "dev8",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev14",
+        "port": "sel"
+      },
+      "name": "no"
+    },
+    {
+      "from": {
+        "id": "dev9",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev25",
+        "port": "c"
+      },
+      "name": "cin"
+    },
+    {
+      "from": {
+        "id": "dev25",
+        "port": "carry"
+      },
+      "to": {
+        "id": "dev10",
+        "port": "in"
+      },
+      "name": "cout"
+    },
+    {
+      "from": {
+        "id": "dev14",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev11",
+        "port": "in"
+      },
+      "name": "out"
+    },
+    {
+      "from": {
+        "id": "dev12",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev13",
+        "port": "x"
+      },
+      "name": "v0"
+    },
+    {
+      "from": {
+        "id": "dev13",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev15",
+        "port": "y"
+      },
+      "name": "v1"
+    },
+    {
+      "from": {
+        "id": "dev13",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev19",
+        "port": "x"
+      },
+      "name": "v1"
+    },
+    {
+      "from": {
+        "id": "dev22",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev14",
+        "port": "x"
+      },
+      "name": "v15"
+    },
+    {
+      "from": {
+        "id": "dev28",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev14",
+        "port": "y"
+      },
+      "name": "v14"
+    },
+    {
+      "from": {
+        "id": "dev28",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev22",
+        "port": "x"
+      },
+      "name": "v14"
+    },
+    {
+      "from": {
+        "id": "dev15",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev16",
+        "port": "x"
+      },
+      "name": "v3"
+    },
+    {
+      "from": {
+        "id": "dev15",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev18",
+        "port": "x"
+      },
+      "name": "v3"
+    },
+    {
+      "from": {
+        "id": "dev15",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev23",
+        "port": "x"
+      },
+      "name": "v3"
+    },
+    {
+      "from": {
+        "id": "dev15",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev25",
+        "port": "b"
+      },
+      "name": "v3"
+    },
+    {
+      "from": {
+        "id": "dev19",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev15",
+        "port": "x"
+      },
+      "name": "v2"
+    },
+    {
+      "from": {
+        "id": "dev16",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev26",
+        "port": "y"
+      },
+      "name": "v9"
+    },
+    {
+      "from": {
+        "id": "dev24",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev16",
+        "port": "y"
+      },
+      "name": "v7"
+    },
+    {
+      "from": {
+        "id": "dev24",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev18",
+        "port": "y"
+      },
+      "name": "v7"
+    },
+    {
+      "from": {
+        "id": "dev24",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev23",
+        "port": "y"
+      },
+      "name": "v7"
+    },
+    {
+      "from": {
+        "id": "dev24",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev25",
+        "port": "a"
+      },
+      "name": "v7"
+    },
+    {
+      "from": {
+        "id": "dev17",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev20",
+        "port": "x"
+      },
+      "name": "v4"
+    },
+    {
+      "from": {
+        "id": "dev18",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev27",
+        "port": "x"
+      },
+      "name": "v10"
+    },
+    {
+      "from": {
+        "id": "dev20",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev21",
+        "port": "x"
+      },
+      "name": "v5"
+    },
+    {
+      "from": {
+        "id": "dev20",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev24",
+        "port": "y"
+      },
+      "name": "v5"
+    },
+    {
+      "from": {
+        "id": "dev21",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev24",
+        "port": "x"
+      },
+      "name": "v6"
+    },
+    {
+      "from": {
+        "id": "dev23",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev26",
+        "port": "x"
+      },
+      "name": "v8"
+    },
+    {
+      "from": {
+        "id": "dev25",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev27",
+        "port": "y"
+      },
+      "name": "v11"
+    },
+    {
+      "from": {
+        "id": "dev26",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev28",
+        "port": "x"
+      },
+      "name": "v12"
+    },
+    {
+      "from": {
+        "id": "dev27",
+        "port": "out"
+      },
+      "to": {
+        "id": "dev28",
+        "port": "y"
+      },
+      "name": "v13"
+    }
+  ],
+  "subcircuits": {
+    "And": {
+      "devices": {
+        "dev0": {
+          "label": "x",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 16,
+          "net": "x"
+        },
+        "dev1": {
+          "label": "y",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 16,
+          "net": "y"
+        },
+        "dev2": {
+          "label": "out",
+          "type": "Output",
+          "propagation": 0,
+          "bits": 16,
+          "net": "out"
+        },
+        "dev3": {
+          "label": "$and$_input.sv:4$1",
+          "type": "And",
+          "propagation": 1,
+          "bits": 16
+        }
+      },
+      "connectors": [
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev3",
+            "port": "in1"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev3",
+            "port": "in2"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev3",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev2",
+            "port": "in"
+          },
+          "name": "out"
+        }
+      ]
+    },
+    "Not": {
+      "devices": {
+        "dev0": {
+          "label": "x",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 16,
+          "net": "x"
+        },
+        "dev1": {
+          "label": "out",
+          "type": "Output",
+          "propagation": 0,
+          "bits": 16,
+          "net": "out"
+        },
+        "dev2": {
+          "label": "$not$_input.sv:16$3",
+          "type": "Not",
+          "propagation": 1,
+          "bits": 16
+        }
+      },
+      "connectors": [
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev2",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev1",
+            "port": "in"
+          },
+          "name": "out"
+        }
+      ]
+    },
+    "NULL16": {
+      "devices": {
+        "dev0": {
+          "label": "x",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 16,
+          "net": "x"
+        },
+        "dev1": {
+          "label": "out",
+          "type": "Output",
+          "propagation": 0,
+          "bits": 16,
+          "net": "out"
+        },
+        "dev2": {
+          "label": "m23",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "And"
+        },
+        "dev3": {
+          "label": "m38",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Not"
+        }
+      },
+      "connectors": [
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev2",
+            "port": "x"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev3",
+            "port": "x"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev1",
+            "port": "in"
+          },
+          "name": "out"
+        },
+        {
+          "from": {
+            "id": "dev3",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev2",
+            "port": "y"
+          },
+          "name": "v0"
+        }
+      ]
+    },
+    "mux": {
+      "devices": {
+        "dev0": {
+          "label": "x",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 1,
+          "net": "x"
+        },
+        "dev1": {
+          "label": "y",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 1,
+          "net": "y"
+        },
+        "dev2": {
+          "label": "sel",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 1,
+          "net": "sel"
+        },
+        "dev3": {
+          "label": "out",
+          "type": "Output",
+          "propagation": 0,
+          "bits": 1,
+          "net": "out"
+        },
+        "dev4": {
+          "label": "$and$_input.sv:108$28",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev5": {
+          "label": "$and$_input.sv:109$29",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev6": {
+          "label": "$not$_input.sv:107$27",
+          "type": "Not",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev7": {
+          "label": "$or$_input.sv:110$30",
+          "type": "Or",
+          "propagation": 1,
+          "bits": 1
+        }
+      },
+      "connectors": [
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev5",
+            "port": "in2"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev4",
+            "port": "in1"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev5",
+            "port": "in1"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev6",
+            "port": "in"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev7",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev3",
+            "port": "in"
+          },
+          "name": "out"
+        },
+        {
+          "from": {
+            "id": "dev6",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev4",
+            "port": "in2"
+          },
+          "name": "v0"
+        },
+        {
+          "from": {
+            "id": "dev4",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "in1"
+          },
+          "name": "v1"
+        },
+        {
+          "from": {
+            "id": "dev5",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "in2"
+          },
+          "name": "v2"
+        }
+      ]
+    },
+    "mux16": {
+      "devices": {
+        "dev0": {
+          "label": "x",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 16,
+          "net": "x"
+        },
+        "dev1": {
+          "label": "y",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 16,
+          "net": "y"
+        },
+        "dev2": {
+          "label": "sel",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 1,
+          "net": "sel"
+        },
+        "dev3": {
+          "label": "out",
+          "type": "Output",
+          "propagation": 0,
+          "bits": 16,
+          "net": "out"
+        },
+        "dev4": {
+          "label": "c0",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev5": {
+          "label": "c1",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev6": {
+          "label": "c10",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev7": {
+          "label": "c11",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev8": {
+          "label": "c12",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev9": {
+          "label": "c13",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev10": {
+          "label": "c14",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev11": {
+          "label": "c15",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev12": {
+          "label": "c2",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev13": {
+          "label": "c3",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev14": {
+          "label": "c4",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev15": {
+          "label": "c5",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev16": {
+          "label": "c6",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev17": {
+          "label": "c7",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev18": {
+          "label": "c8",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev19": {
+          "label": "c9",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "mux"
+        },
+        "dev20": {
+          "type": "BusGroup",
+          "propagation": 0,
+          "groups": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "dev21": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 0,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev22": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 0,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev23": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 1,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev24": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 1,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev25": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 10,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev26": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 10,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev27": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 11,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev28": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 11,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev29": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 12,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev30": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 12,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev31": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 13,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev32": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 13,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev33": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 14,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev34": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 14,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev35": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 15,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev36": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 15,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev37": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 2,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev38": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 2,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev39": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 3,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev40": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 3,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev41": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 4,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev42": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 4,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev43": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 5,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev44": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 5,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev45": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 6,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev46": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 6,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev47": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 7,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev48": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 7,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev49": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 8,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev50": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 8,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev51": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 9,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev52": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 9,
+            "count": 1,
+            "total": 16
+          }
+        }
+      },
+      "connectors": [
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev23",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev25",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev27",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev29",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev31",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev33",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev35",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev37",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev39",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev41",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev43",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev45",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev47",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev49",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev51",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev22",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev24",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev26",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev28",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev30",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev32",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev34",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev36",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev38",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev40",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev42",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev44",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev46",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev48",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev50",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev52",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev4",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev5",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev6",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev8",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev9",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev10",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev11",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev12",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev13",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev14",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev15",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev16",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev17",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev18",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "sel"
+          },
+          "name": "sel"
+        },
+        {
+          "from": {
+            "id": "dev20",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev3",
+            "port": "in"
+          },
+          "name": "out"
+        },
+        {
+          "from": {
+            "id": "dev4",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in0"
+          }
+        },
+        {
+          "from": {
+            "id": "dev21",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev4",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev22",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev4",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev5",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in1"
+          }
+        },
+        {
+          "from": {
+            "id": "dev23",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev5",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev24",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev5",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev6",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in10"
+          }
+        },
+        {
+          "from": {
+            "id": "dev25",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev6",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev26",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev6",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev7",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in11"
+          }
+        },
+        {
+          "from": {
+            "id": "dev27",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev28",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev8",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in12"
+          }
+        },
+        {
+          "from": {
+            "id": "dev29",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev8",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev30",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev8",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev9",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in13"
+          }
+        },
+        {
+          "from": {
+            "id": "dev31",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev9",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev32",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev9",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev10",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in14"
+          }
+        },
+        {
+          "from": {
+            "id": "dev33",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev10",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev34",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev10",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev11",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in15"
+          }
+        },
+        {
+          "from": {
+            "id": "dev35",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev11",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev36",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev11",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev12",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in2"
+          }
+        },
+        {
+          "from": {
+            "id": "dev37",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev12",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev38",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev12",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev13",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in3"
+          }
+        },
+        {
+          "from": {
+            "id": "dev39",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev13",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev40",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev13",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev14",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in4"
+          }
+        },
+        {
+          "from": {
+            "id": "dev41",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev14",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev42",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev14",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev15",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in5"
+          }
+        },
+        {
+          "from": {
+            "id": "dev43",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev15",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev44",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev15",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev16",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in6"
+          }
+        },
+        {
+          "from": {
+            "id": "dev45",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev16",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev46",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev16",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev17",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in7"
+          }
+        },
+        {
+          "from": {
+            "id": "dev47",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev17",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev48",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev17",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev18",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in8"
+          }
+        },
+        {
+          "from": {
+            "id": "dev49",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev18",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev50",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev18",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev19",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in9"
+          }
+        },
+        {
+          "from": {
+            "id": "dev51",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev52",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "y"
+          }
+        }
+      ]
+    },
+    "Or": {
+      "devices": {
+        "dev0": {
+          "label": "x",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 16,
+          "net": "x"
+        },
+        "dev1": {
+          "label": "y",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 16,
+          "net": "y"
+        },
+        "dev2": {
+          "label": "out",
+          "type": "Output",
+          "propagation": 0,
+          "bits": 16,
+          "net": "out"
+        },
+        "dev3": {
+          "label": "$or$_input.sv:10$2",
+          "type": "Or",
+          "propagation": 1,
+          "bits": 16
+        }
+      },
+      "connectors": [
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev3",
+            "port": "in1"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev3",
+            "port": "in2"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev3",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev2",
+            "port": "in"
+          },
+          "name": "out"
+        }
+      ]
+    },
+    "Xor": {
+      "devices": {
+        "dev0": {
+          "label": "x",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 1,
+          "net": "x"
+        },
+        "dev1": {
+          "label": "y",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 1,
+          "net": "y"
+        },
+        "dev2": {
+          "label": "out",
+          "type": "Output",
+          "propagation": 0,
+          "bits": 1,
+          "net": "out"
+        },
+        "dev3": {
+          "label": "$and$_input.sv:25$6",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev4": {
+          "label": "$and$_input.sv:26$7",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev5": {
+          "label": "$not$_input.sv:23$4",
+          "type": "Not",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev6": {
+          "label": "$not$_input.sv:24$5",
+          "type": "Not",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev7": {
+          "label": "$or$_input.sv:27$8",
+          "type": "Or",
+          "propagation": 1,
+          "bits": 1
+        }
+      },
+      "connectors": [
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev4",
+            "port": "in2"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev5",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev3",
+            "port": "in2"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev6",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev7",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev2",
+            "port": "in"
+          },
+          "name": "out"
+        },
+        {
+          "from": {
+            "id": "dev5",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev3",
+            "port": "in1"
+          },
+          "name": "v0"
+        },
+        {
+          "from": {
+            "id": "dev3",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "in1"
+          },
+          "name": "v2"
+        },
+        {
+          "from": {
+            "id": "dev6",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev4",
+            "port": "in1"
+          },
+          "name": "v1"
+        },
+        {
+          "from": {
+            "id": "dev4",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "in2"
+          },
+          "name": "v3"
+        }
+      ]
+    },
+    "Xor16": {
+      "devices": {
+        "dev0": {
+          "label": "x",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 16,
+          "net": "x"
+        },
+        "dev1": {
+          "label": "y",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 16,
+          "net": "y"
+        },
+        "dev2": {
+          "label": "out",
+          "type": "Output",
+          "propagation": 0,
+          "bits": 16,
+          "net": "out"
+        },
+        "dev3": {
+          "label": "x0",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev4": {
+          "label": "x1",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev5": {
+          "label": "x10",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev6": {
+          "label": "x11",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev7": {
+          "label": "x12",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev8": {
+          "label": "x13",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev9": {
+          "label": "x14",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev10": {
+          "label": "x15",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev11": {
+          "label": "x2",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev12": {
+          "label": "x3",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev13": {
+          "label": "x4",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev14": {
+          "label": "x5",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev15": {
+          "label": "x6",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev16": {
+          "label": "x7",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev17": {
+          "label": "x8",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev18": {
+          "label": "x9",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "Xor"
+        },
+        "dev19": {
+          "type": "BusGroup",
+          "propagation": 0,
+          "groups": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "dev20": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 0,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev21": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 0,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev22": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 1,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev23": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 1,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev24": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 10,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev25": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 10,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev26": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 11,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev27": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 11,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev28": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 12,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev29": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 12,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev30": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 13,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev31": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 13,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev32": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 14,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev33": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 14,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev34": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 15,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev35": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 15,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev36": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 2,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev37": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 2,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev38": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 3,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev39": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 3,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev40": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 4,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev41": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 4,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev42": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 5,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev43": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 5,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev44": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 6,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev45": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 6,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev46": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 7,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev47": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 7,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev48": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 8,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev49": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 8,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev50": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 9,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev51": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 9,
+            "count": 1,
+            "total": 16
+          }
+        }
+      },
+      "connectors": [
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev22",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev24",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev26",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev28",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev30",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev32",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev34",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev36",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev38",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev40",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev42",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev44",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev46",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev48",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev50",
+            "port": "in"
+          },
+          "name": "x"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev23",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev25",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev27",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev29",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev31",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev33",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev35",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev37",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev39",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev41",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev43",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev45",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev47",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev49",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev51",
+            "port": "in"
+          },
+          "name": "y"
+        },
+        {
+          "from": {
+            "id": "dev19",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev2",
+            "port": "in"
+          },
+          "name": "out"
+        },
+        {
+          "from": {
+            "id": "dev3",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in0"
+          }
+        },
+        {
+          "from": {
+            "id": "dev20",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev3",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev21",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev3",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev4",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in1"
+          }
+        },
+        {
+          "from": {
+            "id": "dev22",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev4",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev23",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev4",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev5",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in10"
+          }
+        },
+        {
+          "from": {
+            "id": "dev24",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev5",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev25",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev5",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev6",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in11"
+          }
+        },
+        {
+          "from": {
+            "id": "dev26",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev6",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev27",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev6",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev7",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in12"
+          }
+        },
+        {
+          "from": {
+            "id": "dev28",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev29",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev8",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in13"
+          }
+        },
+        {
+          "from": {
+            "id": "dev30",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev8",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev31",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev8",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev9",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in14"
+          }
+        },
+        {
+          "from": {
+            "id": "dev32",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev9",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev33",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev9",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev10",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in15"
+          }
+        },
+        {
+          "from": {
+            "id": "dev34",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev10",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev35",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev10",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev11",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in2"
+          }
+        },
+        {
+          "from": {
+            "id": "dev36",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev11",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev37",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev11",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev12",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in3"
+          }
+        },
+        {
+          "from": {
+            "id": "dev38",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev12",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev39",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev12",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev13",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in4"
+          }
+        },
+        {
+          "from": {
+            "id": "dev40",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev13",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev41",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev13",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev14",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in5"
+          }
+        },
+        {
+          "from": {
+            "id": "dev42",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev14",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev43",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev14",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev15",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in6"
+          }
+        },
+        {
+          "from": {
+            "id": "dev44",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev15",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev45",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev15",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev16",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in7"
+          }
+        },
+        {
+          "from": {
+            "id": "dev46",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev16",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev47",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev16",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev17",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in8"
+          }
+        },
+        {
+          "from": {
+            "id": "dev48",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev17",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev49",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev17",
+            "port": "y"
+          }
+        },
+        {
+          "from": {
+            "id": "dev18",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in9"
+          }
+        },
+        {
+          "from": {
+            "id": "dev50",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev18",
+            "port": "x"
+          }
+        },
+        {
+          "from": {
+            "id": "dev51",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev18",
+            "port": "y"
+          }
+        }
+      ]
+    },
+    "full_adder": {
+      "devices": {
+        "dev0": {
+          "label": "a",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 1,
+          "net": "a"
+        },
+        "dev1": {
+          "label": "b",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 1,
+          "net": "b"
+        },
+        "dev2": {
+          "label": "c",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 1,
+          "net": "c"
+        },
+        "dev3": {
+          "label": "out",
+          "type": "Output",
+          "propagation": 0,
+          "bits": 1,
+          "net": "out"
+        },
+        "dev4": {
+          "label": "carry",
+          "type": "Output",
+          "propagation": 0,
+          "bits": 1,
+          "net": "carry"
+        },
+        "dev5": {
+          "label": "$and$_input.sv:59$12",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev6": {
+          "label": "$and$_input.sv:60$13",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev7": {
+          "label": "$and$_input.sv:61$14",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev8": {
+          "label": "$and$_input.sv:62$15",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev9": {
+          "label": "$and$_input.sv:63$16",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev10": {
+          "label": "$and$_input.sv:64$17",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev11": {
+          "label": "$and$_input.sv:65$18",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev12": {
+          "label": "$and$_input.sv:66$19",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev13": {
+          "label": "$and$_input.sv:67$20",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev14": {
+          "label": "$and$_input.sv:69$22",
+          "type": "And",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev15": {
+          "label": "$not$_input.sv:56$9",
+          "type": "Not",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev16": {
+          "label": "$not$_input.sv:57$10",
+          "type": "Not",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev17": {
+          "label": "$not$_input.sv:58$11",
+          "type": "Not",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev18": {
+          "label": "$or$_input.sv:68$21",
+          "type": "Or",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev19": {
+          "label": "$or$_input.sv:70$23",
+          "type": "Or",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev20": {
+          "label": "$or$_input.sv:71$24",
+          "type": "Or",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev21": {
+          "label": "$or$_input.sv:72$25",
+          "type": "Or",
+          "propagation": 1,
+          "bits": 1
+        },
+        "dev22": {
+          "label": "$or$_input.sv:73$26",
+          "type": "Or",
+          "propagation": 1,
+          "bits": 1
+        }
+      },
+      "connectors": [
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "in2"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev8",
+            "port": "in2"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev15",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev6",
+            "port": "in2"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev8",
+            "port": "in1"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev16",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev9",
+            "port": "in1"
+          },
+          "name": "c"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev10",
+            "port": "in2"
+          },
+          "name": "c"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev13",
+            "port": "in1"
+          },
+          "name": "c"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev14",
+            "port": "in1"
+          },
+          "name": "c"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev17",
+            "port": "in"
+          },
+          "name": "c"
+        },
+        {
+          "from": {
+            "id": "dev22",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev3",
+            "port": "in"
+          },
+          "name": "out"
+        },
+        {
+          "from": {
+            "id": "dev21",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev4",
+            "port": "in"
+          },
+          "name": "carry"
+        },
+        {
+          "from": {
+            "id": "dev15",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev5",
+            "port": "in1"
+          },
+          "name": "v0"
+        },
+        {
+          "from": {
+            "id": "dev15",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev6",
+            "port": "in1"
+          },
+          "name": "v0"
+        },
+        {
+          "from": {
+            "id": "dev16",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev5",
+            "port": "in2"
+          },
+          "name": "v1"
+        },
+        {
+          "from": {
+            "id": "dev16",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "in1"
+          },
+          "name": "v1"
+        },
+        {
+          "from": {
+            "id": "dev5",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev10",
+            "port": "in1"
+          },
+          "name": "v3"
+        },
+        {
+          "from": {
+            "id": "dev6",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev9",
+            "port": "in2"
+          },
+          "name": "v4"
+        },
+        {
+          "from": {
+            "id": "dev6",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev11",
+            "port": "in2"
+          },
+          "name": "v4"
+        },
+        {
+          "from": {
+            "id": "dev7",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev12",
+            "port": "in2"
+          },
+          "name": "v5"
+        },
+        {
+          "from": {
+            "id": "dev7",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev14",
+            "port": "in2"
+          },
+          "name": "v5"
+        },
+        {
+          "from": {
+            "id": "dev8",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev13",
+            "port": "in2"
+          },
+          "name": "v6"
+        },
+        {
+          "from": {
+            "id": "dev8",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev18",
+            "port": "in1"
+          },
+          "name": "v6"
+        },
+        {
+          "from": {
+            "id": "dev9",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev18",
+            "port": "in2"
+          },
+          "name": "v7"
+        },
+        {
+          "from": {
+            "id": "dev10",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in2"
+          },
+          "name": "v8"
+        },
+        {
+          "from": {
+            "id": "dev17",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev11",
+            "port": "in1"
+          },
+          "name": "v2"
+        },
+        {
+          "from": {
+            "id": "dev17",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev12",
+            "port": "in1"
+          },
+          "name": "v2"
+        },
+        {
+          "from": {
+            "id": "dev11",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "in1"
+          },
+          "name": "v9"
+        },
+        {
+          "from": {
+            "id": "dev12",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in2"
+          },
+          "name": "v10"
+        },
+        {
+          "from": {
+            "id": "dev13",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "in1"
+          },
+          "name": "v11"
+        },
+        {
+          "from": {
+            "id": "dev14",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in1"
+          },
+          "name": "v13"
+        },
+        {
+          "from": {
+            "id": "dev18",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in2"
+          },
+          "name": "v12"
+        },
+        {
+          "from": {
+            "id": "dev19",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev22",
+            "port": "in2"
+          },
+          "name": "v14"
+        },
+        {
+          "from": {
+            "id": "dev20",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev22",
+            "port": "in1"
+          },
+          "name": "v15"
+        }
+      ]
+    },
+    "full_adder16": {
+      "devices": {
+        "dev0": {
+          "label": "a",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 16,
+          "net": "a"
+        },
+        "dev1": {
+          "label": "b",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 16,
+          "net": "b"
+        },
+        "dev2": {
+          "label": "c",
+          "type": "Input",
+          "propagation": 0,
+          "bits": 1,
+          "net": "c"
+        },
+        "dev3": {
+          "label": "out",
+          "type": "Output",
+          "propagation": 0,
+          "bits": 16,
+          "net": "out"
+        },
+        "dev4": {
+          "label": "carry",
+          "type": "Output",
+          "propagation": 0,
+          "bits": 1,
+          "net": "carry"
+        },
+        "dev5": {
+          "label": "m46",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev6": {
+          "label": "m47",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev7": {
+          "label": "m48",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev8": {
+          "label": "m49",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev9": {
+          "label": "m50",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev10": {
+          "label": "m51",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev11": {
+          "label": "m52",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev12": {
+          "label": "m53",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev13": {
+          "label": "m54",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev14": {
+          "label": "m55",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev15": {
+          "label": "m56",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev16": {
+          "label": "m57",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev17": {
+          "label": "m58",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev18": {
+          "label": "m59",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev19": {
+          "label": "m60",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev20": {
+          "label": "m61",
+          "type": "Subcircuit",
+          "propagation": 0,
+          "celltype": "full_adder"
+        },
+        "dev21": {
+          "type": "BusGroup",
+          "propagation": 0,
+          "groups": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "dev22": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 0,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev23": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 0,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev24": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 1,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev25": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 1,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev26": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 2,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev27": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 2,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev28": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 3,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev29": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 3,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev30": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 4,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev31": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 4,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev32": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 5,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev33": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 5,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev34": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 6,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev35": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 6,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev36": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 7,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev37": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 7,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev38": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 8,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev39": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 8,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev40": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 9,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev41": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 9,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev42": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 10,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev43": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 10,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev44": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 11,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev45": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 11,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev46": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 12,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev47": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 12,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev48": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 13,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev49": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 13,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev50": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 14,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev51": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 14,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev52": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 15,
+            "count": 1,
+            "total": 16
+          }
+        },
+        "dev53": {
+          "type": "BusSlice",
+          "propagation": 0,
+          "slice": {
+            "first": 15,
+            "count": 1,
+            "total": 16
+          }
+        }
+      },
+      "connectors": [
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev22",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev24",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev26",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev28",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev30",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev32",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev34",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev36",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev38",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev40",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev42",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev44",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev46",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev48",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev50",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev0",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev52",
+            "port": "in"
+          },
+          "name": "a"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev23",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev25",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev27",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev29",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev31",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev33",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev35",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev37",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev39",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev41",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev43",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev45",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev47",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev49",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev51",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev1",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev53",
+            "port": "in"
+          },
+          "name": "b"
+        },
+        {
+          "from": {
+            "id": "dev2",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev5",
+            "port": "c"
+          },
+          "name": "c"
+        },
+        {
+          "from": {
+            "id": "dev21",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev3",
+            "port": "in"
+          },
+          "name": "out"
+        },
+        {
+          "from": {
+            "id": "dev20",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev4",
+            "port": "in"
+          },
+          "name": "carry"
+        },
+        {
+          "from": {
+            "id": "dev22",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev5",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev23",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev5",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev5",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev6",
+            "port": "c"
+          },
+          "name": "v1"
+        },
+        {
+          "from": {
+            "id": "dev5",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in0"
+          }
+        },
+        {
+          "from": {
+            "id": "dev24",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev6",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev25",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev6",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev6",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "c"
+          },
+          "name": "v2"
+        },
+        {
+          "from": {
+            "id": "dev6",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in1"
+          }
+        },
+        {
+          "from": {
+            "id": "dev26",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev27",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev7",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev7",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev8",
+            "port": "c"
+          },
+          "name": "v3"
+        },
+        {
+          "from": {
+            "id": "dev7",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in2"
+          }
+        },
+        {
+          "from": {
+            "id": "dev28",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev8",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev29",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev8",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev8",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev9",
+            "port": "c"
+          },
+          "name": "v4"
+        },
+        {
+          "from": {
+            "id": "dev8",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in3"
+          }
+        },
+        {
+          "from": {
+            "id": "dev30",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev9",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev31",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev9",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev9",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev10",
+            "port": "c"
+          },
+          "name": "v5"
+        },
+        {
+          "from": {
+            "id": "dev9",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in4"
+          }
+        },
+        {
+          "from": {
+            "id": "dev32",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev10",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev33",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev10",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev10",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev11",
+            "port": "c"
+          },
+          "name": "v6"
+        },
+        {
+          "from": {
+            "id": "dev10",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in5"
+          }
+        },
+        {
+          "from": {
+            "id": "dev34",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev11",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev35",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev11",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev11",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev12",
+            "port": "c"
+          },
+          "name": "v7"
+        },
+        {
+          "from": {
+            "id": "dev11",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in6"
+          }
+        },
+        {
+          "from": {
+            "id": "dev36",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev12",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev37",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev12",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev12",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev13",
+            "port": "c"
+          },
+          "name": "v8"
+        },
+        {
+          "from": {
+            "id": "dev12",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in7"
+          }
+        },
+        {
+          "from": {
+            "id": "dev38",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev13",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev39",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev13",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev13",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev14",
+            "port": "c"
+          },
+          "name": "v9"
+        },
+        {
+          "from": {
+            "id": "dev13",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in8"
+          }
+        },
+        {
+          "from": {
+            "id": "dev40",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev14",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev41",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev14",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev14",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev15",
+            "port": "c"
+          },
+          "name": "v10"
+        },
+        {
+          "from": {
+            "id": "dev14",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in9"
+          }
+        },
+        {
+          "from": {
+            "id": "dev42",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev15",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev43",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev15",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev15",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev16",
+            "port": "c"
+          },
+          "name": "v11"
+        },
+        {
+          "from": {
+            "id": "dev15",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in10"
+          }
+        },
+        {
+          "from": {
+            "id": "dev44",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev16",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev45",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev16",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev16",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev17",
+            "port": "c"
+          },
+          "name": "v12"
+        },
+        {
+          "from": {
+            "id": "dev16",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in11"
+          }
+        },
+        {
+          "from": {
+            "id": "dev46",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev17",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev47",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev17",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev17",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev18",
+            "port": "c"
+          },
+          "name": "v13"
+        },
+        {
+          "from": {
+            "id": "dev17",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in12"
+          }
+        },
+        {
+          "from": {
+            "id": "dev48",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev18",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev49",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev18",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev18",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "c"
+          },
+          "name": "v14"
+        },
+        {
+          "from": {
+            "id": "dev18",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in13"
+          }
+        },
+        {
+          "from": {
+            "id": "dev50",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev51",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev19",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev19",
+            "port": "carry"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "c"
+          },
+          "name": "v15"
+        },
+        {
+          "from": {
+            "id": "dev19",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in14"
+          }
+        },
+        {
+          "from": {
+            "id": "dev52",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "a"
+          }
+        },
+        {
+          "from": {
+            "id": "dev53",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev20",
+            "port": "b"
+          }
+        },
+        {
+          "from": {
+            "id": "dev20",
+            "port": "out"
+          },
+          "to": {
+            "id": "dev21",
+            "port": "in15"
+          }
+        }
+      ]
+    }
+  }
+}
+
