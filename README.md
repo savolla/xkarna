@@ -1,4 +1,4 @@
-<img src="./.tmp/./.tmp/xkarna-banner.png">
+<img src="./.tmp/xkarna-banner.png">
 
 xkarna
 --------
